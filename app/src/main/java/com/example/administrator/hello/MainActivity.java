@@ -18,5 +18,6 @@ public class MainActivity extends AppCompatActivity {
         mSimpleDraweeView = (SimpleDraweeView)findViewById(R.id.simpleDraweeView);
         mSimpleDraweeView.setImageURI(Uri.parse("https://img.alicdn.com/tfs/TB1bnXuk7voK1RjSZFDXXXY3pXa-520-280.jpg_q90_.webp"));
 
+        System.out.println();
     }
 }
